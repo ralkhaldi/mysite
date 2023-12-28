@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تسجيل الدخول والتسجيل</title>
+    <link rel="icon" href="/Users/rashidalkhaldi/Desktop/final_project/download.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: #f2f2f2; /* Set the background color */
+            font-family: Arial, sans-serif; /* Optional: Set the font-family */
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h2 {
+            color: #333; /* Set the heading color */
+        }
+
+        form {
+            max-width: 300px;
+            margin: 0 auto;
+            background-color: #fff; /* Set the form background color */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a box shadow */
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #333; /* Set the label color */
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #4caf50; /* Set the button background color */
+            color: #fff; /* Set the button text color */
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049; /* Change button color on hover */
+        }
+
+        /* Optional: Style alerts */
+        alert {
+            display: block;
+            padding: 10px;
+            margin-top: 10px;
+            background-color: #f2dede;
+            border: 1px solid #ebccd1;
+            color: #a94442;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <h2>تسجيل الدخول</h2>
+    <form id="loginForm">
+        <label for="loginUsername">اسم المستخدم:</label>
+        <input type="text" id="loginUsername" required>
+        <button type="submit">تسجيل الدخول</button>
+    </form>
+
+    <h2>تسجيل مستخدم جديد</h2>
+    <form id="signupForm">
+        <label for="signupUsername">اسم المستخدم:</label>
+        <input type="text" id="signupUsername" required>
+        <button type="submit">تسجيل</button>
+    </form>
+
+    <script src="mySite.js"></script>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:Rashid.alkhaldi@hotmail.com">Rashid.alkhaldi@hotmail.com</a></p>
+        <!-- Add Twitter and LinkedIn buttons with links to your profiles -->
+        <div class="social-icons">
+            <a href="https://twitter.com/YourTwitterHandle" target="_blank" rel="noopener noreferrer">
+                <img src="/Users/rashidalkhaldi/Desktop/final_project/tweeter.png" alt="Twitter">
+            </a>
+            <a href="https://sa.linkedin.com/in/rashid-alkhaldi-935822111" target="_blank" rel="noopener noreferrer">
+                <img src="/Users/rashidalkhaldi/Desktop/final_project/linkedin.png" alt="LinkedIn">
+            </a>
+        </div>
+    </section>
+</body>
+</html>
